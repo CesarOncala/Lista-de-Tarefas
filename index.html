@@ -10,11 +10,12 @@
 </head>
 <body>
   <div class="app">
-    <div class="todo-list">
+    <div class="todo-list"  style="width: 35%;">
     <h1 class="title">Lista de Tarefas</h1>
   
    <form class="form" action="">
-      <input class="form-input" id="oi" type="text" data-form-input>
+      <input class="form-input" style="width: 35%;" id="oi" type="text" data-form-input>
+      <input class="form-input" id="date" type="datetime-local" data-form-date>
       <button type="button" class="form-button" data-form-button> Novo Item </button>
    </form>
   
@@ -26,4 +27,5 @@
 </html>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
 <script src="./1.js"></script>
